@@ -11,7 +11,7 @@ $(document).ready(function () {
                 if (data == "rec-added") {
                     $("#input-pro").addClass("hide");
                     $("#input-pro").removeClass("show");
-
+                    $("#entered-pro-name").val("");
                     $.post("ajax/refresh-pro-cards.php", "refresh-pro-cards",
                         function (data, status) {
                             console.log(data);
@@ -33,6 +33,7 @@ $(document).ready(function () {
         function (data, status) {
             console.log(data);
             $("#project").html(data);
+
         }
     );
 
