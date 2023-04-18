@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Project-Planner</title>
+</head>
+
+<body>
+    <div id="form">
+        <div id="input-pro" class="hide">
+            <form id="input-pro-form" action="" method="get">
+                <p>Project Name</p>
+                <input name="pro_name" type="text">
+                <p id="input-pro-msg"></p>
+                <div class="form-action">
+                    <button id="create-pro" class="bg-green">Create</button>
+                    <button class="bg-red" id="input-pro-close">Cancel</button>
+                </div>
+                <!-- form-action -->
+            </form>
+        </div>
+        <!-- input pro -->
+    </div>
+    <!-- #form -->
+    <div id="sel-pro" class="page">
+        <div class="title">
+            <h1>Projects</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i id="add-pro" class="fa-solid fa-circle-plus"></i>
+        </div>
+        <div id="project" class="project">
+
+            <div class="pro-card">
+                <label>#1</label>
+                <p>React-Test</p>
+            </div>
+            <!-- pro-card  -->
+
+        </div>
+        <!-- project -->
+    </div>
+    <!-- sel-pro -->
+    <!-- <div id="pro-detail" class="page">
+
+    </div> -->
+    <!-- pro-detail -->
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js' integrity='sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==' crossorigin='anonymous'></script>
+<script type="text/javascript" src="main.js"></script>
+<script src="ajax.js"></script>
+</html>
